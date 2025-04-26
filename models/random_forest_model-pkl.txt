@@ -1,0 +1,11 @@
+The Random Forest model file (random_forest_model.pkl) is too large to be uploaded directly to this GitHub repository.
+
+Please download it manually from the following link:
+https://drive.google.com/file/d/17fKAJChiDLaLHX4CA4X75jRtL1bvEu9Q/view?usp=sharing
+
+After downloading, place the file into the 'models/' directory as follows:
+
+models/
+└── random_forest_model.pkl
+
+This will allow the project to correctly load the Random Forest model during evaluation and prediction.

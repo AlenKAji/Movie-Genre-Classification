@@ -1,0 +1,31 @@
+Model: BERT_MLP
+Accuracy: 0.6341
+F1 Score: 0.6188
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      action       0.46      0.46      0.46      1314
+       adult       0.41      0.51      0.46       590
+   adventure       0.43      0.25      0.31       775
+   animation       0.35      0.28      0.31       498
+      comedy       0.59      0.61      0.60      7446
+       crime       0.28      0.06      0.10       505
+ documentary       0.76      0.86      0.81     13096
+       drama       0.62      0.73      0.67     13612
+      family       0.39      0.28      0.32       783
+     fantasy       0.28      0.16      0.20       322
+      horror       0.59      0.64      0.61      2204
+       music       0.67      0.57      0.62       731
+  reality-tv       0.55      0.41      0.47       883
+     romance       0.31      0.15      0.20       672
+      sci-fi       0.50      0.48      0.49       646
+       short       0.62      0.36      0.46      5072
+       sport       0.69      0.46      0.55       431
+   talk-show       0.50      0.36      0.42       391
+    thriller       0.32      0.23      0.27      1590
+     western       0.86      0.88      0.87      1032
+
+    accuracy                           0.63     52593
+   macro avg       0.51      0.44      0.46     52593
+weighted avg       0.62      0.63      0.62     52593
