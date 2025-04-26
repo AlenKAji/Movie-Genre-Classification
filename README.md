@@ -53,6 +53,22 @@ This project utilizes the [Genre Classification Dataset IMDb](https://www.kaggle
       - `test_data.txt`</br>
       - `test_data_solution.txt`</br>
       </br>
+
+3. **Download Trained Models**
+
+The trained model files are too large to be stored directly in this GitHub repository.  
+They are hosted externally and can be downloaded from the following links:
+
+- [Download BERT + Logistic Regression Model (`bert_logreg_model.pkl`)](https://drive.google.com/file/d/1HNbVMx4Urp3xBFocM1DSb87gXgjJyou-/view?usp=sharing)
+- [Download BERT + MLP Model (`bert_mlp_model.h5`)](https://drive.google.com/file/d/1KntDz2Ds5uWdyqeidfgXvbPV-9Q0lYAk/view?usp=sharing)
+- [Download Label Encoder for BERT + MLP (`bert_mlp_encoder.pkl`)](https://drive.google.com/file/d/1yxQER1G02VEZWQnrA5trVd7meL9aeUMf/view?usp=sharing)
+- [Download Random Forest Model (`random_forest_model.pkl`)](https://drive.google.com/file/d/17fKAJChiDLaLHX4CA4X75jRtL1bvEu9Q/view?usp=sharing)
+
+After downloading, please place the models into the `models/` directory of the project:
+
+
+
+
 2. **Install the required dependencies**
    ```bash
    pip install -r requirements.txt
