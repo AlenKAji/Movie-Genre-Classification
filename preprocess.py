@@ -100,4 +100,3 @@ def extract_additional_features(texts):
         features.append([len(text), word_count, sent_count, avg_word_len])
     return np.array(features)
 
-# END OF preprocess.py
