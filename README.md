@@ -29,10 +29,7 @@ The project emphasizes:
 ├── preprocess.py            # Text preprocessing and cleaning
 ├── requirements.txt         # Required Python packages
 ├── models/                  # Directory for saving trained models and evaluation outputs
-├── Genre Classification Dataset/
-│   ├── train_data.txt
-│   ├── test_data.txt
-│   └── test_data_solution.txt
+
 ```
 
 ---
@@ -43,29 +40,34 @@ The project emphasizes:
    git clone https://github.com/your-username/movie-genre-classification.git
    cd movie-genre-classification
    ```
+2. **Download and Prepare the Dataset**
 
+This project utilizes the [Genre Classification Dataset IMDb](https://www.kaggle.com/datasets/hijest/genre-classification-dataset-imdb) from Kaggle.
+
+   a. Visit the dataset page and download the dataset files.</br>
+   
+   b. Create a folder named `Genre Classification Dataset/` in the root directory of your project.</br>
+   
+   c. Place the following files into this folder:</br>
+      - `train_data.txt`</br>
+      - `test_data.txt`</br>
+      - `test_data_solution.txt`</br>
+      </br>
 2. **Install the required dependencies**
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Prepare the dataset**
-
-   Make sure the following files exist in a folder called `Genre Classification Dataset/`:
-   - `train_data.txt`
-   - `test_data.txt`
-   - `test_data_solution.txt`
-
-4. **Run the project**
+3. **Run the project**
    ```bash
    python model.py
    ```
 
-5. **View outputs**
+4. **View outputs**
 
    All results (saved models, confusion matrices, misclassified examples, classification reports) will be automatically saved in the `models/` directory.
 
-6. **Make custom predictions**
+5. **Make custom predictions**
 
    After evaluation, the system will prompt you to input your own movie plot, and each model will predict the genre.
 
