@@ -37,7 +37,7 @@ The project emphasizes:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/movie-genre-classification.git
+   git clone https://github.com/AlenKAji/movie-genre-classification.git
    cd movie-genre-classification
    ```
 2. **Download and Prepare the Dataset**
